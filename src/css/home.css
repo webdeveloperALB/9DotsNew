@@ -95,7 +95,7 @@
 
 .hero-texts h1 {
   font-family: "DM Sans";
-  font-size: 82px;
+  font-size: 60px;
   line-height: 110px;
   z-index: 6;
   position: relative;
@@ -106,7 +106,7 @@
 .hero-texts p {
   width: 70%;
   margin: auto;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 300;
   line-height: 30px;
 }
@@ -134,7 +134,7 @@
 }
 .hero-btn span {
   display: flex;
-  width: 62px;
+  width: 60px;
   height: 55px;
   display: flex;
   align-items: center;
@@ -1055,6 +1055,9 @@
   }
 }
 @media (max-width: 500px) {
+  .video-modal .video-modal-content {
+    height: 0;
+  }
   .hero-images-row {
     display: flex;
     flex-direction: column;
@@ -1063,13 +1066,19 @@
   .hero-section {
     height: auto;
   }
+  .hero-btn span {
+    width: 50px;
+    height: 50px;
+  }
+
   .hero-section-content {
-    padding-top: 50px;
+    padding-top: 20px;
   }
   .hero-image-moja {
     max-height: 150px;
   }
   .hero-texts h1 {
+    margin-bottom: 1rem;
     font-size: 50px;
     line-height: 75px;
   }
@@ -1083,6 +1092,7 @@
 
   .hero-texts .hero-btn {
     width: 100%;
+    margin: 40px 0 0 0;
   }
 
   .hero-texts p {

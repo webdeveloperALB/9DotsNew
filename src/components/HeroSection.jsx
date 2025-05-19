@@ -56,7 +56,10 @@ const HeroSection = () => {
               </h1>
             </div>
             <p data-aos="fade-up" data-aos-offset="-100">
-              Marketing your brand. Recruiting your team. Powering your growth.
+              Marketing your brand. Recruiting your team.
+            </p>
+            <p data-aos="fade-up" data-aos-offset="-100">
+              Powering your growth.
             </p>
 
             <div

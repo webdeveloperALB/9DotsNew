@@ -222,7 +222,6 @@
 }
 .video-modal .video-modal-content {
   width: 80%;
-  height: 80%;
   position: absolute;
   transform: scale(0);
   background: black;
@@ -231,14 +230,11 @@
   width: 70px;
   height: 70px;
   position: absolute;
-  right: -6%;
-  top: -5%;
+  right: -9%;
+  top: 0%;
   color: white;
   font-size: 30px;
   cursor: pointer;
-}
-.video-body {
-  height: 100%;
 }
 .video-body iframe {
   width: 100%;
@@ -1056,7 +1052,15 @@
 }
 @media (max-width: 500px) {
   .video-modal .video-modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
     height: 0;
+  }
+  .video-modal-content .close-btn {
+    top: -160px;
+    right: -9%;
   }
   .hero-images-row {
     display: flex;

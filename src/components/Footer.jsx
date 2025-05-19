@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className="footer-column">
                            <h3>Office</h3>
                            <div className="column-content">
-                                 <p>4th Floor, Yaya Center, Argwings Kodhek Rd, <br />Kilimani Nairobi.</p>
+                                 <p>Rruga e Dibrës<br />Tiranë, Albania</p>
                                  <a href='s' className='email'>customer-support@amariconsult.com</a>
                                  <p className='number'>+254 735 042 089</p>
                            </div>

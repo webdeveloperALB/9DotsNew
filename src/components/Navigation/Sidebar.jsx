@@ -60,7 +60,7 @@ const Sidebar = () => {
       <div ref={sidebarBox} className="sidebar-content">
         <div className="inner-row">
           <div className="logo">
-            <a href="s">
+            <a href="/">
               <img src={logo} alt="" className="logo-image" />
             </a>
             <span onClick={removeMenu}>

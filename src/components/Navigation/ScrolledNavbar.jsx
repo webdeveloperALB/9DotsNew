@@ -24,7 +24,7 @@ const ScrolledNavbar = () => {
       <div className="inner-row">
         <div className="header-content">
           <div className="logo">
-            <a href="s">
+            <a href="/">
               <img src={logo} alt="" className="logo-image" />
             </a>
           </div>

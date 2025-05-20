@@ -45,7 +45,7 @@
       color: white;
 }
 
-img {
+.portfolio-img {
       width: 20rem;
       height: 22rem;
       object-fit: cover;

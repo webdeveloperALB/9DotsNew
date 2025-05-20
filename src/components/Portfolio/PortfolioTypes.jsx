@@ -58,7 +58,7 @@ const PortfolioTypes = () => {
                     key={item.id}
                     data-aos="zoom-in"
                   >
-                    <img src={item.image} alt="" />
+                    <img src={item.image} alt="" className="portfolio-img"/>
                   </div>
                 ))}
               </div>
@@ -71,7 +71,7 @@ const PortfolioTypes = () => {
               >
                 {designs.map((item) => (
                   <div className="portfolio-moja" key={item.id}>
-                    <img src={item.image} alt="" />
+                    <img src={item.image} alt="" className="portfolio-img"/>
                   </div>
                 ))}
               </div>
@@ -84,7 +84,7 @@ const PortfolioTypes = () => {
               >
                 {web.map((item) => (
                   <div className="portfolio-moja" key={item.id}>
-                    <img src={item.image} alt="" />
+                    <img src={item.image} alt="" className="portfolio-img"/>
                   </div>
                 ))}
               </div>
@@ -97,7 +97,7 @@ const PortfolioTypes = () => {
               >
                 {socials.map((item) => (
                   <div className="portfolio-moja" key={item.id}>
-                    <img src={item.image} alt="" />
+                    <img src={item.image} alt="" className="portfolio-img"/>
                   </div>
                 ))}
               </div>

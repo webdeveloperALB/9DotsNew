@@ -23,7 +23,7 @@ const Sidebar = () => {
       overlay.current.classList.add("active");
 
       gsap.to(overlay.current, {
-        duration: 1,
+        duration: 0.5, // Faster overlay in
         y: "100%",
         ease: "power2",
       });
@@ -31,7 +31,7 @@ const Sidebar = () => {
         duration: 1,
         x: "0",
         ease: "power2",
-        delay: 1,
+        delay: 0.5, // Adjusted to match faster overlay
       });
     }
 
@@ -42,7 +42,7 @@ const Sidebar = () => {
         ease: "power2",
       });
       gsap.to(overlay.current, {
-        duration: 1,
+        duration: 0.5, // Faster overlay out
         y: "0",
         ease: "power2",
         delay: 1,
@@ -51,7 +51,7 @@ const Sidebar = () => {
         sidebarBox.current.classList.remove("active");
         overlay.current.classList.remove("active");
         sidebarContainer.current.classList.remove("active");
-      }, 2000);
+      }, 1800); // Adjusted to match new animation duration
     }
   }, [status]);
   return (

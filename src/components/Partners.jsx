@@ -190,6 +190,7 @@ const Partners = () => {
         @media (max-width: 500px) {
           .partner-logo {
             height: 80px;
+            margin: 0;
           }
         }
 

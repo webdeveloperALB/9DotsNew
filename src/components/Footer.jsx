@@ -25,7 +25,7 @@ const Footer = () => {
               </div>
               <div className="hours-info">
                 <h3>Agency Hours</h3>
-                <p>Monday - Friday: 10 AM – 7 PM</p>
+                <p>Monday - Friday: 10 AM – 6 PM</p>
                 <p>Weekend: By appointment</p>
               </div>
             </div>

@@ -5,7 +5,7 @@ import heroImage2 from "../assets/marketing&recr/Rec1.png";
 import heroImage3 from "../assets/marketing&recr/9.png";
 import { CgClose } from "react-icons/cg";
 import { gsap } from "gsap";
-import "./Hero.css"
+import "./Hero.css";
 const HeroSection = () => {
   const [modalactive, setModal] = useState(false);
   const modal = useRef();
@@ -22,7 +22,7 @@ const HeroSection = () => {
       let modalTimeline = gsap.timeline();
       modalTimeline.to(overlay.current, {
         y: 0,
-        duration: 1,
+        duration: 0.5, // Faster overlay in
       });
       modalTimeline.to(videoBox.current, {
         scale: 1,
@@ -36,13 +36,14 @@ const HeroSection = () => {
       });
       modalTimeline.to(overlay.current, {
         y: "-100%",
-        duration: 1,
+        duration: 0.5, // Faster overlay out
       });
       setTimeout(() => {
         modal.current.classList.remove("active");
-      }, 2200);
+      }, 1500); // Adjusted timeout to match shorter animation
     }
   }, [modalactive]);
+
   return (
     <div className="hero-section">
       <div className="bg-art"></div>

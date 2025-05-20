@@ -56,19 +56,19 @@ export const portfolios = [
 
    {
       'id': 16,
-      'image': ''
+      'image': '/portfolio/autorental.png'
    },
    {
       'id': 17,
-      'image': '../img/dum20.webp'
+      'image': '/portfolio/autorental1.png'
    },
    {
       'id': 18,
-      'image': '../img/dum21.webp'
+      'image': '/portfolio/autorental2.png'
    },
    {
       'id': 19,
-      'image': '../img/dum22.webp'
+      'image': '/portfolio/autorental3.png'
    },
    {
       'id': 23,

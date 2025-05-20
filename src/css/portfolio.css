@@ -45,6 +45,12 @@
       color: white;
 }
 
+img {
+      width: 20rem;
+      height: 22rem;
+      object-fit: cover;
+}
+
 .portfolio-shift-container-row{
       margin-top: 60px;
 }

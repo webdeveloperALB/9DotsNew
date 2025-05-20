@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Support from "./Support";
 import Nudge from "./Nudge";
 // Import all the logos as in the original code
 // Import all 31 logos
@@ -141,7 +140,6 @@ const Partners = () => {
             </div>
           </div>
 
-          <Support />
           <Nudge />
         </div>
       </div>

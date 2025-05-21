@@ -1,3 +1,18 @@
+export const switches = [
+  {
+    id: 0,
+    name: "All",
+  },
+  {
+    id: 1,
+    name: "Graphic Design",
+  },
+  {
+    id: 2,
+    name: "Web Development",
+  },
+];
+
 export const portfolios = [
   {
     id: 1,
@@ -123,6 +138,14 @@ export const portfolios = [
     id: 34,
     image: "/portfolio/sharganserver2.png",
   },
+  {
+    id: 35,
+    image: "/portfolio/lp1.png",
+  },
+  {
+    id: 36,
+    image: "/portfolio/lp2.png",
+  },
 ];
 
 export const designs = [
@@ -134,7 +157,6 @@ export const designs = [
     id: 2,
     image: "/portfolio/Go Health/Go Health Brand Identity-02.png",
   },
-
   {
     id: 4,
     image: "/portfolio/Go Health/Go Health Brand Identity-03.png",
@@ -147,7 +169,6 @@ export const designs = [
     id: 6,
     image: "/portfolio/Go Health/Go Health Brand Identity-05.png",
   },
-
   {
     id: 7,
     image: "/portfolio/Go Health/Go Health Brand Identity-06.png",
@@ -180,65 +201,87 @@ export const designs = [
     id: 15,
     image: "/portfolio/Aredo Stones/Aredo Stones-06.jpg",
   },
-];
-
-export const switches = [
   {
-    id: 0,
-    name: "All",
+    id: 20,
+    image: "/portfolio/flex/2.jpg",
   },
   {
-    id: 1,
-    name: "Graphic Design",
+    id: 22,
+    image: "/portfolio/flex/3.jpg",
   },
   {
-    id: 2,
-    name: "Web Development",
+    id: 23,
+    image: "/portfolio/flex/1.jpg",
   },
   {
-    id: 3,
-    name: "Social Media Management",
+    id: 24,
+    image: "/portfolio/flex/6.jpg",
   },
   {
-    id: 4,
-    name: "Training",
+    id: 25,
+    image: "/portfolio/flex/7.jpg",
+  },
+  {
+    id: 26,
+    image: "/portfolio/flex/8.jpg",
+  },
+  {
+    id: 27,
+    image: "/portfolio/flex/9.jpg",
+  },
+  {
+    id: 28,
+    image: "/portfolio/flex/10.jpg",
   },
 ];
 
 export const web = [
   {
-    id: 1,
-    image: "../img/dum12.jpeg",
+    id: 16,
+    image: "/portfolio/autorental.png",
   },
   {
-    id: 2,
-    image: "../img/dum13.jpeg",
+    id: 17,
+    image: "/portfolio/autorental1.png",
   },
   {
-    id: 3,
-    image: "../img/dum14.png",
+    id: 18,
+    image: "/portfolio/autorental2.png",
   },
   {
-    id: 4,
-    image: "../img/dum15.png",
+    id: 19,
+    image: "/portfolio/autorental3.png",
   },
   {
-    id: 5,
-    image: "../img/dum16.jpg",
-  },
-];
-
-export const socials = [
-  {
-    id: 1,
-    image: "../img/dum10.jpg",
+    id: 29,
+    image: "/portfolio/shargan1.png",
   },
   {
-    id: 2,
-    image: "../img/dum11.jpg",
+    id: 30,
+    image: "/portfolio/shargan2.png",
   },
   {
-    id: 3,
-    image: "../img/dum24.jpg",
+    id: 31,
+    image: "/portfolio/shargan3.png",
+  },
+  {
+    id: 32,
+    image: "/portfolio/sharganfront.png",
+  },
+  {
+    id: 33,
+    image: "/portfolio/sharganserver.png",
+  },
+  {
+    id: 34,
+    image: "/portfolio/sharganserver2.png",
+  },
+  {
+    id: 35,
+    image: "/portfolio/lp1.png",
+  },
+  {
+    id: 36,
+    image: "/portfolio/lp2.png",
   },
 ];

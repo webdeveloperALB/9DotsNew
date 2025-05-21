@@ -9,121 +9,110 @@ const ServicesDistinction = () => {
           <div className="distinction-intro">
             <h1>What We Do</h1>
             <p>
-              At 9Dots, we don’t believe in generic solutions. Every business has a different rhythm,
-              and our services are designed to match it — whether you're building a brand or scaling a team.
-              Here's how we help companies grow with purpose.
+              At 9Dots, we don’t believe in generic solutions. Every business
+              has a different rhythm, and our services are designed to match it
+              — whether you're building a brand or scaling a team. Here's how we
+              help companies grow with purpose.
             </p>
           </div>
 
           <div className="distinction-content-row">
             <div className="distinction-moja">
-              <h3>Advisory</h3>
+              <h3>Marketing</h3>
               <ul>
                 <li>
                   <span>
                     <TbCircleDot />
                   </span>{" "}
-                  Business & Talent Audits
+                  Digital Marketing
                 </li>
                 <li>
                   <span>
                     <TbCircleDot />
                   </span>{" "}
-                  Strategic Project Management
+                  SEO
                 </li>
                 <li>
                   <span>
                     <TbCircleDot />
                   </span>{" "}
-                  Employer & Brand Positioning
+                  PPC Marketing
                 </li>
                 <li>
                   <span>
                     <TbCircleDot />
                   </span>{" "}
-                  Integrated Content Planning
+                  Social Media Marketing
                 </li>
                 <li>
                   <span>
                     <TbCircleDot />
                   </span>{" "}
-                  Digital Roadmapping
+                  Social Media Advertising
+                </li>
+                <li>
+                  <span>
+                    <TbCircleDot />
+                  </span>{" "}
+                  E-commerce Marketing
+                </li>
+                <li>
+                  <span>
+                    <TbCircleDot />
+                  </span>{" "}
+                  Online Marketplace Marketing
                 </li>
               </ul>
             </div>
             <div className="distinction-moja">
-              <h3>Agency</h3>
+              <h3>Creative</h3>
               <ul>
                 <li>
                   <span>
                     <TbCircleDot />
                   </span>{" "}
-                  Social Media & Employer Branding
+                  Link Building
                 </li>
                 <li>
                   <span>
                     <TbCircleDot />
                   </span>{" "}
-                  Creative Design & Identity
+                  Web Design Development
                 </li>
                 <li>
                   <span>
                     <TbCircleDot />
                   </span>{" "}
-                  Career Page & Website Builds
+                  Media Production
                 </li>
                 <li>
                   <span>
                     <TbCircleDot />
                   </span>{" "}
-                  Search Engine & Profile Optimization
+                  Content Marketing
                 </li>
                 <li>
                   <span>
                     <TbCircleDot />
                   </span>{" "}
-                  Copywriting for Brand & HR
-                </li>
-                <li>
-                  <span>
-                    <TbCircleDot />
-                  </span>{" "}
-                  Visual Storytelling (Photo & Video)
+                  Reputation Management
                 </li>
               </ul>
             </div>
             <div className="distinction-moja">
-              <h3>Academy</h3>
+              <h3>Recruiting</h3>
               <ul>
                 <li>
                   <span>
                     <TbCircleDot />
                   </span>{" "}
-                  Talent Acceleration Bootcamps
+                  Executive Search
                 </li>
                 <li>
                   <span>
                     <TbCircleDot />
                   </span>{" "}
-                  Recruiter & Employer Training
-                </li>
-                <li>
-                  <span>
-                    <TbCircleDot />
-                  </span>{" "}
-                  Job Market Readiness Programs
-                </li>
-                <li>
-                  <span>
-                    <TbCircleDot />
-                  </span>{" "}
-                  Digital Capability Upskilling
-                </li>
-                <li>
-                  <span>
-                    <TbCircleDot />
-                  </span>{" "}
-                  Marketing & Hiring Masterclasses
+                  Recruitment Support
                 </li>
               </ul>
             </div>

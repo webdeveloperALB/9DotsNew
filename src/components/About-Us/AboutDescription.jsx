@@ -6,10 +6,6 @@ import transparency from "../../assets/security.png";
 import trust from "../../assets/trust.png";
 import results from "../../assets/data-analytics.png";
 import people from "../../assets/rating.png";
-import img1 from "../../assets/about-img5.jpg";
-import img2 from "../../assets/about-img6.jpg";
-import img3 from "../../assets/about-img7.jpg";
-import img4 from "../../assets/about-img8.jpg";
 
 const AboutDescription = () => {
   return (
@@ -139,21 +135,6 @@ const AboutDescription = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div className="random-images">
-        <div className="random-moja" data-aos="zoom-in">
-          <img src={img1} alt="" />
-        </div>
-        <div className="random-moja" data-aos="zoom-in">
-          <img src={img2} alt="" />
-        </div>
-        <div className="random-moja" data-aos="zoom-in">
-          <img src={img3} alt="" />
-        </div>
-        <div className="random-moja" data-aos="zoom-in">
-          <img src={img4} alt="" />
         </div>
       </div>
     </>

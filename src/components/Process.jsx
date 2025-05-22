@@ -39,7 +39,7 @@ const AccordionItem = ({ id, process_title, process_description }) => {
       >
         <h2>{process_title}</h2>
         <span>
-          <HiChevronDown />
+          <HiChevronDown size={24}/>
         </span>
       </div>
       <div

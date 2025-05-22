@@ -515,7 +515,7 @@ footer .inner-row {
 
 @media (max-width: 768px) {
   .hero-part-description h1 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 60px;
   }
 }
@@ -528,5 +528,8 @@ footer .inner-row {
   .sidebar-content .logo span {
     width: 30px;
     height: 30px;
+  }
+   .hero-part-row {
+    padding: 50px 0;
   }
 }

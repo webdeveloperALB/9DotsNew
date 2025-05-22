@@ -7,6 +7,7 @@ import { navContext } from "./navcontext";
 import { gsap } from "gsap";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
+
 const Sidebar = () => {
   const [status, setStatus] = useContext(navContext);
   const sidebarContainer = useRef();
@@ -16,6 +17,7 @@ const Sidebar = () => {
   const removeMenu = () => {
     setStatus(!status);
   };
+
   useEffect(() => {
     if (status) {
       sidebarContainer.current.classList.add("active");
@@ -23,37 +25,38 @@ const Sidebar = () => {
       overlay.current.classList.add("active");
 
       gsap.to(overlay.current, {
-        duration: 0.5, // Faster overlay in
+        duration: 0.35, // Balanced overlay in speed
         y: "100%",
-        ease: "power2",
+        ease: "power2.out",
       });
       gsap.to(sidebarBox.current, {
-        duration: 1,
+        duration: 0.6, // Balanced sidebar slide in
         x: "0",
-        ease: "power2",
-        delay: 0.5, // Adjusted to match faster overlay
+        ease: "power2.out",
+        delay: 0.25, // Moderate delay
       });
     }
 
     if (!status && sidebarContainer.current.classList.contains("active")) {
       gsap.to(sidebarBox.current, {
-        duration: 1,
+        duration: 0.6, // Balanced sidebar slide out
         x: "-100%",
-        ease: "power2",
+        ease: "power2.in",
       });
       gsap.to(overlay.current, {
-        duration: 0.5, // Faster overlay out
+        duration: 0.35, // Balanced overlay out
         y: "0",
-        ease: "power2",
-        delay: 1,
+        ease: "power2.in",
+        delay: 0.4, // Moderate delay
       });
       setTimeout(() => {
         sidebarBox.current.classList.remove("active");
         overlay.current.classList.remove("active");
         sidebarContainer.current.classList.remove("active");
-      }, 1800); // Adjusted to match new animation duration
+      }, 1000); // Balanced cleanup delay
     }
   }, [status]);
+
   return (
     <div ref={sidebarContainer} className="sidebar-container">
       <div ref={overlay} className="sidebar-overlay"></div>

@@ -1,26 +1,26 @@
 export const process_texts = [
   {
     id: 1,
-    process_title: "Discovery & Planning",
+    process_title: "Strategic Discovery & Intelligence Gathering",
     process_description:
-      "We begin by understanding your business goals, brand voice, and hiring needs. This stage helps us align strategy with what matters most to your growth."
+      "We conduct deep-dive analysis of your market position, competitive landscape, and organizational DNA. This comprehensive assessment reveals untapped opportunities and aligns our strategy with your unique growth trajectory.",
   },
   {
     id: 2,
-    process_title: "Proposal & Roadmap",
+    process_title: "Blueprint Development & Resource Mapping",
     process_description:
-      "Based on the discovery phase, we create a clear action plan — whether it's a marketing campaign, recruitment rollout, or both — with timelines, deliverables, and outcomes."
+      "Our experts craft a precision-engineered action plan combining marketing initiatives and talent acquisition strategies. Each blueprint includes success metrics, milestone markers, and contingency protocols for maximum adaptability.",
   },
   {
     id: 3,
-    process_title: "Execution & Optimization",
+    process_title: "Dynamic Execution & Performance Optimization",
     process_description:
-      "Our team launches and manages your campaigns or recruitment efforts while continuously monitoring performance. We refine messaging, targeting, and workflows to maximize results."
+      "We deploy our integrated methodology while continuously analyzing performance data. Real-time adjustments ensure peak efficiency as we refine messaging, enhance targeting precision, and accelerate candidate flow.",
   },
   {
     id: 4,
-    process_title: "Review & Handover",
+    process_title: "Knowledge Transfer & Future-Readiness",
     process_description:
-      "We wrap up by analyzing results, delivering reports, and handing over any assets or recommendations needed for ongoing success. We ensure you're equipped to move forward confidently."
-  }
+      "Beyond delivering results, we equip your team with insights, tools, and frameworks for sustained success. Our comprehensive handover includes strategic recommendations and implementation guides for ongoing momentum.",
+  },
 ];

@@ -1056,6 +1056,19 @@
     width: 98%;
     height: 0;
   }
+  .accordion-title h2 {
+    font-size: 22px;
+  }
+  .accordion-title span {
+    width: 20px;
+    height: 20px;
+  }
+  .process-section {
+    padding: 50px 0px;
+  }
+  .partners-section {
+    padding: 50px 0 0 0;
+  }
   .video-modal-content .close-btn {
     font-size: 30px;
     top: -160px;
@@ -1068,6 +1081,9 @@
   .hero-overlay-kidogo,
   .hero-section {
     height: auto;
+  }
+  .nudge-content h1 {
+    font-size: 45px;
   }
   .hero-btn span {
     width: 50px;

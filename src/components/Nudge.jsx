@@ -5,14 +5,15 @@ const Nudge = () => {
   return (
     <div className="nudge-content">
       <h1 data-aos="fade-down">
-        <span>Ready</span> to grow your team and brand?
+        <span>Transform</span> your vision into market dominance?
       </h1>
       <p data-aos="fade-up">
-        9Dots delivers focused marketing and recruitment solutions that help
-        your business attract the right attention — and the right people.
+        Partner with 9Dots to unlock the exponential power of integrated
+        marketing and recruitment excellence. Let's build something
+        extraordinary together.
       </p>
       <NavLink to="/contact-us/" data-aos="zoom-in">
-        Get in Touch
+        Start Your Transformation
       </NavLink>
     </div>
   );

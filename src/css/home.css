@@ -1056,12 +1056,36 @@
     width: 98%;
     height: 0;
   }
+  .partners-intro h1 {
+    font-size: 35px;
+  }
+  .process-section-column h1 {
+    font-size: 35px;
+  }
+  .benefits-intro h1 {
+    font-size: 35px;
+  }
+  .home-services-intro h2 {
+    font-size: 35px;
+    font-family: "DM Sans";
+    margin-bottom: 20px;
+  }
+  .more-about-description-column h2 {
+    font-size: 35px;
+  }
+  .about-intro .about-title-column h2,
+  .process-intro h2 {
+    font-size: 35px;
+  }
+  .more-about-description-column a {
+    width: 100%;
+  }
   .accordion-title h2 {
     font-size: 22px;
   }
   .accordion-title span {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
   }
   .process-section {
     padding: 50px 0px;
@@ -1082,8 +1106,11 @@
   .hero-section {
     height: auto;
   }
+  .nudge-content {
+    padding: 10px 0 80px 0;
+  }
   .nudge-content h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
   .hero-btn span {
     width: 50px;

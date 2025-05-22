@@ -730,7 +730,6 @@
 .accordion-title span {
   width: 40px;
   height: 40px;
-  border: 1px solid rgba(224, 254, 255, 0.582);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -1056,6 +1055,10 @@
     width: 98%;
     height: 0;
   }
+   .about-spin img {
+    right: 0;
+    top: -40%;
+  }
   .partners-intro h1 {
     font-size: 35px;
   }
@@ -1063,7 +1066,7 @@
     font-size: 35px;
   }
   .benefits-intro h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .home-services-intro h2 {
     font-size: 35px;
@@ -1075,7 +1078,7 @@
   }
   .about-intro .about-title-column h2,
   .process-intro h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .more-about-description-column a {
     width: 100%;

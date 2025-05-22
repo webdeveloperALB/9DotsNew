@@ -16,7 +16,7 @@ const Home = () => {
                    <Navigation />
                    <HeroSection />
           </section>
-          <Spacer pad={'40px'} />
+          <Spacer pad={'0px'} />
           <AboutSection />
           <HomeServices />
           <Benefits />

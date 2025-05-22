@@ -48,6 +48,7 @@ img {
 }
 .spacer {
   background-color: white;
+  padding: 0;
 }
 
 /* Header Styles */

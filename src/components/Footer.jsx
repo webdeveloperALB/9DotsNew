@@ -1,11 +1,7 @@
 import React from "react";
 import { BsBriefcase } from "react-icons/bs";
 import { HiArrowLongRight } from "react-icons/hi2";
-import {
-  FaLinkedinIn,
-  FaInstagram,
-  FaTiktok,
-} from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram, FaTiktok } from "react-icons/fa";
 import "./Footer.css";
 
 const Footer = () => {
@@ -126,7 +122,7 @@ const Footer = () => {
                     <br />
                     Rruga e Dibrës
                     <br />
-                    Tirana 1001, Albania
+                    Tirana, Albania
                   </p>
                   <a href="mailto:hello@9dotsagency.com" className="email-link">
                     info@9dotsagency.com

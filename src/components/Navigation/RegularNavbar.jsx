@@ -51,7 +51,11 @@ const RegularNavbar = () => {
             </ul>
 
             <div className="call-to-action">
-              <a href="s">
+              <a
+                href="https://wa.me/355685861003?text=Hello!%20I'm%20reaching%20out%20after%20discovering%209Dots%20Agency.%20I'm%20interested%20in%20your%20marketing%20and%20recruiting%20services%20and%20would%20love%20to%20hear%20how%20you%20can%20support%20my%20growth%20goals.%20Can%20we%20chat%3F"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <span>
                   <IoLogoWhatsapp />
                 </span>{" "}

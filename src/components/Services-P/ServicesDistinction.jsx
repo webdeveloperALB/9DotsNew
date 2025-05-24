@@ -77,7 +77,7 @@ const ServicesDistinction = () => {
                   <span>
                     <TbCircleDot />
                   </span>{" "}
-                  Web Design Development
+                  Web Design & Development
                 </li>
                 <li>
                   <span>

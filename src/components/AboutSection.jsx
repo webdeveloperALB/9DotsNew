@@ -3,9 +3,6 @@ import digital from "../assets/web-management.png";
 import commerce from "../assets/commerce.png";
 import training from "../assets/analysis.png";
 import spinner from "../assets/Shap.png";
-import aboutImage from "../assets/about-img.png";
-import { HiArrowLongRight } from "react-icons/hi2";
-import { NavLink } from "react-router-dom";
 
 const AboutSection = () => {
   return (
@@ -69,43 +66,6 @@ const AboutSection = () => {
                   strategic onboarding, culture mapping, and long-term retention
                   strategies that turn new hires into company champions.
                 </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="more-about-section">
-            <div className="more-about-row">
-              <div className="more-about-picture-column" data-aos="fade-right">
-                <img src={aboutImage} alt="" />
-              </div>
-              <div className="more-about-description-column">
-                <div className="more-about-description-inner">
-                  <h2 data-aos="fade-down">
-                    Your Strategic Partner in Sustainable Growth
-                  </h2>
-                  <p data-aos="fade-up">
-                    At 9Dots, we believe that transformational growth happens
-                    when exceptional marketing meets exceptional people. Our
-                    integrated approach ensures your brand voice resonates
-                    authentically while attracting talent that shares your
-                    vision.
-                  </p>
-                  <p data-aos="fade-up" data-aos-delay="300">
-                    From startup launches to enterprise expansions, we deliver
-                    the strategic clarity and execution excellence that turns
-                    ambitious goals into measurable achievements.
-                  </p>
-                  <NavLink
-                    to="/about-us/"
-                    data-aos="zoom-in"
-                    data-aos-delay="600"
-                  >
-                    Discover Our Story{" "}
-                    <span>
-                      <HiArrowLongRight />
-                    </span>
-                  </NavLink>
-                </div>
               </div>
             </div>
           </div>

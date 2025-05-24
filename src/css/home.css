@@ -394,7 +394,8 @@
   font-size: 19px;
 }
 .more-about-description-column a {
-  width: 150px;
+  padding: 1rem;
+  width: 200px;
   height: 50px;
   background: var(--main-color);
   border-radius: 6px;
@@ -1078,9 +1079,7 @@
   .process-intro h2 {
     font-size: 30px;
   }
-  .more-about-description-column a {
-    width: 100%;
-  }
+
   .accordion-title h2 {
     font-size: 22px;
   }

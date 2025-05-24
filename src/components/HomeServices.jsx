@@ -45,12 +45,6 @@ const HomeServices = () => {
                 differentiation that resonates with both customers and top
                 talent.
               </p>
-              <a href="s">
-                Explore Assessment{" "}
-                <span>
-                  <HiOutlineArrowNarrowRight />
-                </span>
-              </a>
               <div className="home-service-image">
                 <img src={imgService1} alt="" />
               </div>
@@ -64,12 +58,6 @@ const HomeServices = () => {
                 methodologies, ensuring perfect cultural and strategic
                 alignment.
               </p>
-              <a href="s">
-                View Process{" "}
-                <span>
-                  <HiOutlineArrowNarrowRight />
-                </span>
-              </a>
               <div className="home-service-image">
                 <img src={imgService2} alt="" />
               </div>
@@ -84,7 +72,7 @@ const HomeServices = () => {
                   irresistible career destinations that attract industry-leading
                   professionals.
                 </p>
-                <a href="s">
+                <a href="/portfolio">
                   See Portfolio{" "}
                   <span>
                     <HiOutlineArrowNarrowRight />
@@ -103,12 +91,6 @@ const HomeServices = () => {
                 we deliver qualified candidates faster through innovative
                 sourcing techniques and streamlined selection processes.
               </p>
-              <a href="s">
-                Learn Framework{" "}
-                <span>
-                  <HiOutlineArrowNarrowRight />
-                </span>
-              </a>
               <div className="home-service-image">
                 <img src={imgService2} alt="" />
               </div>
@@ -121,12 +103,6 @@ const HomeServices = () => {
                 building magnetic employer brands that naturally attract
                 high-caliber professionals and engaged customers alike.
               </p>
-              <a href="s">
-                View Strategy{" "}
-                <span>
-                  <HiOutlineArrowNarrowRight />
-                </span>
-              </a>
               <div className="home-service-image">
                 <img src={imgService1} alt="" />
               </div>
